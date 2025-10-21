@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: telegram-election-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: TZ
+        value: Europe/Moscow
+

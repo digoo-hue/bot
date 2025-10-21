@@ -1,0 +1,13 @@
+python-telegram-bot==20.6
+telethon==1.36.0
+pytz==2023.3
+python-dotenv
+nest_asyncio
+anyio
+openai==1.12.0
+httpx==0.25.0
+tqdm
+pyaes
+pyasn1
+rsa
+typing-inspection
